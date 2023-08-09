@@ -50,3 +50,57 @@ a:hover {
   text-decoration: underline;
   transition: 1s;
 }
+
+.image {
+  width: 500px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 86vh;
+}
+
+.description {
+  max-width: 400px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+h1 {
+  font-size: 45px;
+  color: blue;
+  text-shadow: rgb(247, 115, 67) 0.5px 0.5px 0.5px;
+}
+
+.pri_btn{
+  padding: 15PX 70PX;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.right_cnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+button:hover {
+  background-color: rgb(39, 39, 199);
+}
