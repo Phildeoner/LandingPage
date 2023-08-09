@@ -97,7 +97,7 @@ h1 {
 .right_cnt {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
   gap: 20px;
 }
 
